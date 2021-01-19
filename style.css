@@ -1,0 +1,44 @@
+. corpo {
+    fundo : # fafafa ;
+}
+
+. dino {
+    largura : 60 px ;
+    altura : 60 px ;
+    imagem de fundo : url (dino.png);
+    posição : absoluta;
+    inferior : 0 ;
+}
+
+. cactus {
+    posição : absoluta;
+    largura : 60 px ;
+    altura : 60 px ;
+    inferior : 0 ;
+    imagem de fundo : url (cactus.png);
+}
+
+. game-over {
+    alinhamento de texto : centro;
+    cor : # 666666 ;
+    margem superior : 60 px ;
+    família da fonte : Arial , Helvetica , sans-serif;
+}
+
+@keyframes slideright {
+    de {
+        posição de fundo : 70000 % ;
+    }
+    para {
+        posição de fundo : 0 ;
+    }
+}
+
+. background {
+    posição : absoluta;
+    inferior : 0 ;
+    imagem de fundo : url (background.png);
+    repetição de fundo : repetir-x;
+    animação : slideright 600 s linear infinito;
+    largura : 100 % ;
+    altura : 200 px ;
